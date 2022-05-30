@@ -1,0 +1,24 @@
+.main-view__wrapper {
+  position: absolute; 
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  overflow: hidden;
+  .container {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .user {
+    max-width: 125px;
+    width: 100%;
+    position: absolute;
+    top: 8px;
+    right: 45px;
+    color: #fff;
+    cursor: pointer;
+  }
+}

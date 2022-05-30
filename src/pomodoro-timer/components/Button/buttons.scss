@@ -1,0 +1,20 @@
+.buttons-wrapper {
+  display: flex;
+  .button-mr {
+    margin: 0 20px 0 0;
+  }
+}
+.button {
+  padding: 7px 30px;
+  border: 2px solid #FAFAFA;
+  border-radius: 300px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #FAFAFA;
+  cursor: pointer;
+  &:hover {
+    border: 2px solid #7f4049;
+    color: #7f4049;
+    transition: all .3s ease-in-out;
+  }
+}
